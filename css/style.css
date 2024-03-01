@@ -2171,9 +2171,9 @@ select.uk-form-width-xsmall {
   transition: all ease 300ms;
 }
 
-.uk-button:not(:disabled) {
+/* .uk-button:not(:disabled) {
   cursor: pointer;
-}
+} */
 
 /*
  * Remove the inner border and padding in Firefox.
