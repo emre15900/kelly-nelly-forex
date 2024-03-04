@@ -24443,3 +24443,8 @@ footer .social-media-list div a:hover {
     margin-left: 0;
   }
 }
+.uk-logo img{
+  height: 45px;
+  width: 250px;
+  margin-top: 1.5rem;
+}
