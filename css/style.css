@@ -27067,3 +27067,42 @@ footer .social-media-list div a:hover {
   width: 250px !important;
   margin-top: 1.5rem !important;
 }
+
+@media (max-width: 639px) {
+  .uk-container hr {
+    display: none;
+  }
+  .uk-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    padding-left: 1rem;
+  }
+  header .uk-background-top-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .uk-logo img {
+    margin-top: -1rem !important;
+    width: 200px !important;
+  }
+  .uk-sticky.uk-active .uk-container{
+    display: none;
+  }
+  .uk-sticky.uk-active{
+    background: transparent !important;
+    display: none;
+  }
+  .uk-card-body > :last-child, .uk-card-header > :last-child, .uk-card-footer > :last-child{
+    margin-top: 2rem;
+  }
+  footer .uk-background-contain.uk-background-bottom-left .uk-container.uk-margin-top{
+    display: flex;
+    flex-direction: column;
+  }
+  .in-ticker-prices ul li{
+    margin-left: -1.7rem;
+  }
+}
